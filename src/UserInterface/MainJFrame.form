@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,39,0,0,5,15"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JSplitPane" name="splitPanel">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+              <JSplitPaneConstraints position="left"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="19" max="32767" attributes="0"/>
+                      <Component id="viewBtn" min="-2" pref="55" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="viewBtn" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="499" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="viewBtn">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="View"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewBtnActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+              <JSplitPaneConstraints position="right"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="1204" max="32767" attributes="0"/>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="549" max="32767" attributes="0"/>
+                  <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel3">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="personProfile" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="strtL1WA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="strtL2WA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cityWA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="stateWA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zipCodeWA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="countryWA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="workAd" min="-2" max="-2" attributes="0"/>
+                                      <Component id="firstName" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lastName" min="-2" max="-2" attributes="0"/>
+                                      <Component id="streetAd" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="firstNameTextField" min="-2" pref="191" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="streetAdTextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="strt1LWATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                      <Component id="strtL2WATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                      <Component id="cityWATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                      <Component id="stateWATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                      <Component id="zipCWATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                      <Component id="countryWATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                      <Component id="lastNameTextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="localAD" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="252" pref="252" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="strtL1LA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="strtL2LA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="cityLA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="stateLA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="zipCodeLA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="countryLA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="strtL1LATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                              <Component id="strt2LLATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                              <Component id="cityLATextField8" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                              <Component id="stateLATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                              <Component id="zipCLATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                              <Component id="countryLATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                              <Component id="dob" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="dobTextField" min="-2" pref="191" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace pref="76" max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="homeAd" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="252" pref="252" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="strtL1HA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="strtL2HA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="cityHA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="stateHA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="zipCodeHA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="countryHA" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="strtL1HATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                      <Component id="strtL2HATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                      <Component id="cityHATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                      <Component id="stateHATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                      <Component id="zipCodeHATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                      <Component id="countryHATextField" alignment="0" min="-2" pref="191" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="personProfile" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="dob" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="dobTextField" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="firstName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="firstNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="lastNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="streetAdTextField" min="-2" pref="84" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                          <Component id="streetAd" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                                  <Component id="workAd" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="strtL1WA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="strt1LWATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="strtL2WA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="strtL2WATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="cityWA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cityWATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="stateWA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="stateWATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="zipCodeWA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zipCWATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="countryWA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="countryWATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="localAD" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="strtL1LA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="strtL1LATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="strtL2LA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="strt2LLATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="cityLA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cityLATextField8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="stateLA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="stateLATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="zipCodeLA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zipCLATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="countryLA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="countryLATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="homeAd" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="strtL1HA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="strtL1HATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="strtL2HA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="strtL2HATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="cityHA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="cityHATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="stateHA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="stateHATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="zipCodeHA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="zipCodeHATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="countryHA" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="countryHATextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="16" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="personProfile">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Arial" size="24" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Person Profile"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="firstName">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="First Name"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="lastName">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Last Name"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="streetAd">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Street Adderess"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="firstNameTextField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="lastNameTextField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="streetAdTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="dob">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="DOB (YYYY/MM/DD)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="dobTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="workAd">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Work Address"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="strtL1WA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Street Line 1"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="strt1LWATextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="strtL2WA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Street Line 2"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="cityWA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="City"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="stateWA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="State"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="zipCodeWA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Zip Code"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="countryWA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Country"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="strtL2WATextField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="cityWATextField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="stateWATextField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="zipCWATextField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="countryWATextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="localAD">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Local Address"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="strtL1LA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Street Line 1"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="strtL1LATextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="strtL2LA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Street Line 2"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="strt2LLATextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="cityLA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="City"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="cityLATextField8">
+                </Component>
+                <Component class="javax.swing.JLabel" name="stateLA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="State"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="stateLATextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="zipCodeLA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Zip Code"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="zipCLATextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="countryLA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Country"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="countryLATextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="homeAd">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="11" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Home Address"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="strtL1HA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Street Line 1"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="strtL1HATextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="strtL2HA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Street Line 2"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="strtL2HATextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="cityHA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="City"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="cityHATextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="stateHA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="State"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="stateHATextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="zipCodeHA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Zip Code"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="zipCodeHATextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="countryHA">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Country"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="countryHATextField">
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
